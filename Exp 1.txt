@@ -1,0 +1,18 @@
+//Program for addition of two 8-bit numbers:
+//Manually strore 1st no in the memory location 2500
+
+//Manually store 2nd no in the memory location 2501
+
+//Result is stored in 2502
+
+LXI H,2500
+
+MOV A,M
+	   
+INX H
+	   
+ADD M
+	   
+STA 2502
+	   
+HLT
